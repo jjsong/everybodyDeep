@@ -4,25 +4,6 @@ import tensorflow as tf
 import numpy as np
 xy = np.loadtxt('data/train-reg.txt', unpack=True, dtype='float32')
 
-'''
-??????
-import pandas as pd
-xy = pd.read_csv("data/train.csv", dtype='float32')
-
-print ""
-print xy[0:1]
-print ""
-print xy[0:2]
-print ""
-print xy[0:3]
-print ""
-print xy[0:-1]
-
-print ""
-print xy[-1]
-???????
-'''
-
 
 x_data = xy[0:-1]
 y_data = xy[-1]
